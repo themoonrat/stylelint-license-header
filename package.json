@@ -1,0 +1,12 @@
+{
+  "name": "stylelint-license-header",
+  "version": "1.0.0",
+  "description": "A Stylelint plugin to enforce a required header comment for license/copyright information in CSS files.",
+  "main": "index.js",
+  "repository": "git@github.com:KualiCo/stylelint-license-header.git",
+  "author": "Leah McBeth <leahloughran@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "stylelint": "^13.3.0"
+  }
+}

@@ -24,7 +24,7 @@ Set up in `.stylelintrc`:
 {
   "plugins": [
     "stylelint-license-header"
-	],
+  ],
   "rules": {
     "kuali/license-header": [true, {
       "license": "Copyright 2016-2020 MyCompany Inc."

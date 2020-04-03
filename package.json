@@ -1,6 +1,6 @@
 {
   "name": "stylelint-license-header",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Stylelint plugin to enforce a required header comment for license/copyright information in CSS files.",
   "main": "index.js",
   "repository": "git@github.com:KualiCo/stylelint-license-header.git",

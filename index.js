@@ -1,6 +1,6 @@
 const stylelint = require('stylelint')
 
-const ruleName = 'ddd/license-header'
+const ruleName = 'kuali/license-header'
 const messages = stylelint.utils.ruleMessages(ruleName, {
   rejected: 'Missing or incorrect license header',
 })

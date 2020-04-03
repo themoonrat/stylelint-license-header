@@ -32,7 +32,9 @@ module.exports = stylelint.createPlugin(ruleName, (actual, options = {}, context
       commentIsFirst = comment === comment.parent.first
 
       if (commentIsFirst) {
-        if (comment.text === options.license) {
+        const commentText = comment.text.trim()
+        const licenseText = options.license.trim()
+        if (commentText === licenseText) {
           isLicenseHeaderPresent = true
           return
         } else {

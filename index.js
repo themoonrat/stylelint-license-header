@@ -7,11 +7,11 @@ const messages = stylelint.utils.ruleMessages(ruleName, {
 
 module.exports = stylelint.createPlugin(ruleName, (actual, options = {}, context) => {
   return (root, result) => {
-		const validOptions = stylelint.utils.validateOptions(
-			result,
-			ruleName,
-			{ actual },
-			{
+    const validOptions = stylelint.utils.validateOptions(
+      result,
+      ruleName,
+      { actual },
+      {
 				actual: options,
 				possible: {
 					license: v => typeof v === 'string'

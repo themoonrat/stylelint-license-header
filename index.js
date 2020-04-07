@@ -12,17 +12,17 @@ module.exports = stylelint.createPlugin(ruleName, (actual, options = {}, context
       ruleName,
       { actual },
       {
-				actual: options,
-				possible: {
-					license: v => typeof v === 'string'
-				},
-				optional: false
-			}
-		)
+        actual: options,
+        possible: {
+          license: v => typeof v === 'string'
+        },
+        optional: false
+      }
+    )
 
-		if (!validOptions) {
-			return
-		}
+    if (!validOptions) {
+      return
+    }
 
     const disableFix = options.disableFix || false
     const isFixEnabled = context.fix && !disableFix

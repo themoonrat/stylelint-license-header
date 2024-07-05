@@ -9,11 +9,11 @@ Follow instructions for installation and setup of [Stylelint](https://stylelint.
 Then install this plugin with yarn or npm:
 
 ```
-yarn add --dev stylelint-license-header
+yarn add --dev stylelint-license-header-top
 ```
 
 ```
-npm add --save-dev stylelint-license-header
+npm add --save-dev stylelint-license-header-top
 ```
 
 ## Setup
@@ -23,10 +23,10 @@ Set up in `.stylelintrc`:
 ```
 {
   "plugins": [
-    "stylelint-license-header"
+    "stylelint-license-header-top"
   ],
   "rules": {
-    "themoonrat/license-header": [true, {
+    "license-header-top": [true, {
       "license": "Copyright 2020-2024 MyCompany Inc."
     }]
   }

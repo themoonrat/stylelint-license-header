@@ -9,11 +9,11 @@ Follow instructions for installation and setup of [Stylelint](https://stylelint.
 Then install this plugin with yarn or npm:
 
 ```
-yarn add --dev stylelint-license-header
+yarn add --dev @themoonrat/stylelint-license-header
 ```
 
 ```
-npm add --save-dev stylelint-license-header
+npm add --save-dev @themoonrat/stylelint-license-header
 ```
 
 ## Setup

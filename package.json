@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "A Stylelint plugin to enforce a required header comment for license/copyright information in CSS files.",
   "main": "index.js",
-  "repository": "https://github.com/themoonrat/stylelint-license-header.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/themoonrat/stylelint-license-header.git"
+  },
   "author": "David Moore <themoonrat@gmail.com>",
   "contributors": [
     "Original Author - Leah McBeth <leahloughran@gmail.com>"
